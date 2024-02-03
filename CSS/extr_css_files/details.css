@@ -1,0 +1,43 @@
+#a_div {
+    background-color: darkblue;
+    /* margin-top: -10px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px; */
+}
+
+.tha {
+    font-size: large;
+    color: white;
+    padding: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.center {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#front_img {
+    height: 400px;
+    width: 100%;
+    /* margin-left: -5px;
+    margin-right: -10px; */
+}
+
+#pic_id {
+    height: 300px;
+    width: 350px;
+    /* padding: 10px; */
+    /* padding-bottom: 0px; */
+}
+
+
+#paragraph{
+    justify-content:space-evenly;
+    padding: 25px;
+    line-height: 1.5;
+    text-align: justify;
+}
