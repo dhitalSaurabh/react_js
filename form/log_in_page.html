@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #pic_prop {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+
+        padding: 20px;
+
+    }
+
+    #input_field {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        Border-Top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 12px;
+        font-size: 18px;
+
+    }
+
+    #form {
+        margin-top: 0px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border: 1.5px solid #ccc;
+    }
+
+    #table {
+        background-color: #f2f6ff;
+
+        width: 500px;
+    }
+
+    #submit {
+        background-color: #0056ff;
+        color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+        /* margin-left: 10px;
+        margin-bottom: 10px; */
+        border: none;
+        margin-left: 150px;
+    }
+</style>
+
+<body style="background-color: #f2f6ff;">
+    <form action="" method="GET" id="form">
+        <h1 style="text-align: center;">
+            <!-- style="text-align: center;" -->
+            Register
+        </h1>
+        <div>
+            <table id="table">
+                <tr>
+                    <td>
+                        <a href="/"><img src="/assets/google-1088004_1920.png" alt="google" id="pic_prop"></a>
+
+                    </td>
+                    <td>
+                        <a href="/"> <img src="/assets/facebook.png" alt="facebook" id="pic_prop"></a>
+                    </td>
+                    <td>
+                        <a href="/"><img src="/assets/git_hub.png" alt="git hub" id="pic_prop"></a>
+                    </td>
+                    <td>
+                        <a href="/"><img src="/assets/linkedin-icon.png" alt="linkedin" id="pic_prop"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+
+            <input type="text" name="username" placeholder="Name" id="input_field" required />
+        </div>
+        <div>
+            <input type="email" name="Email" placeholder="Email" id="input_field" required />
+
+        </div>
+        <div>
+            <input type="password" name="Password" maxlength="8" placeholder="Password" id="input_field" />
+
+        </div>
+        <div>
+            <input type="password" name="Confirm Password" maxlength="8" placeholder="Confirm Password"
+                id="input_field" />
+        </div>
+        <div>
+            <input type="submit" value="Register" id="submit">
+        </div>
+    </form>
+</body>
+
+</html>

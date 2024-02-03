@@ -7,56 +7,71 @@
     <title>Document</title>
 </head>
 <style>
-#form{
-   width: 300px;
-   background-color: bisque; 
-   padding: 20px;
-   margin-left: auto;
-   margin-right: auto;
-}
+    #form {
+        width: 300px;
+        background-color: bisque;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.input_fields{
-    margin: 0px;
-    margin-bottom: 4px;
-    margin-top: 12px;
-}
+    .input_fields {
+        margin: 0px;
+        margin-bottom: 4px;
+        margin-top: 12px;
+    }
 
-.input_items{
-    width: 100%;
-}
-.terms_check{
-    margin-top: 12px;
-    margin-bottom: 18px;
-}
+    .input_items {
+        width: 100%;
+    }
+
+    .terms_check {
+        margin-top: 12px;
+        margin-bottom: 18px;
+    }
 </style>
+
 <body style="background-color: aquamarine;">
     <h1 style="text-align: center;">Signup</h1>
     <form action="" id="form" method="GET">
         <div>
             <p class="input_fields">Full Name: </p>
-            <input class="input_items" type="text" name="full name">
+            <input class="input_items" 
+            type="text" 
+            autofocus 
+            name="full name" 
+            placeholder="name" required>
         </div>
         <div>
-           <p class="input_fields">E-mail:</p> 
-            <input class="input_items" type="email" name="email">
+            <p class="input_fields">E-mail:</p>
+            <input class="input_items" required type="email" placeholder="Email" name="email" autofocus>
+        </div>
+        <div>
+            <p class="input_fields">Age</p>
+            <input type="number" class="input_items" name="age"
+            min="18" max="40" >
         </div>
         <div>
             <p class="input_fields">Password </p>
-            <input class="input_items" type="password" name="password">
+            <input class="input_items" 
+            type="password" 
+            name="password"
+            maxlength="8"
+            >
         </div>
         <div>
             <p class="input_fields">Confirm Password:</p>
-            <input class="input_items" type="password" name="Confirm password">
+            <input class="input_items" maxlength="8" type="password" name="Confirm password">
         </div>
         <div>
-           <p class="input_fields"> Gender: </p>
+            <p class="input_fields"> Gender: </p>
             <input type="radio" name="male" value="male"> Male</input>
             <input type="radio" name="female" value="female">Female </input>
             <input type="radio" name="others" value="others">Others </input>
         </div>
         <div>
             <p class="input_fields">Security Questions: </p>
-            <select class="input_items" name="security-questions" id="ques">
+            <select class="input_items" multiple name="security-questions" id="ques">
                 <option value="first-car-name">What was your first car name?</option>
                 <option value="car-model">What was your car model?</option>
                 <option value="first-job">What was your first job?</option>
@@ -66,7 +81,8 @@
             <textarea class="input_items" name="answer" cols="30" rows="6"></textarea>
         </div>
         <div>
-            <input class="terms_check" type="checkbox" name="terms-condition" value="accept">I accept the terms and conditions
+            <input class="terms_check" type="checkbox" name="terms-condition" value="accept">I accept the terms and
+            conditions
         </div>
         <input type="submit" value="Register">
     </form>
