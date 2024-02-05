@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#topbar{
+    background-color: black;
+    padding: 24px 30px;
+}
+ 
+.link_style{
+font-size: 24px;
+margin-right: 24px;
+color: blue;
+text-decoration: none;
+}
+/* styling links link, visited,
+ hover and active must be in serial order*/
+.link_style:link {
+    color: blue;
+}
+.link_style:visited{
+    color: green;
+}
+.link_style:hover{
+    color: blueviolet;
+}
+.link_style:active {
+    color: red;
+}

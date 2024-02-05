@@ -1,0 +1,13 @@
+.image_item{
+height: 250px;
+width: 180px;
+}
+.div_items{
+display: inline;
+}
+
+.menu_items{
+    display: inline;
+     /* visibility: hidden; */
+    /* display: none;  */
+}
