@@ -1,0 +1,11 @@
+
+#img_prop {
+    width: 700px;
+    height: 550px;
+}
+#wrapper {
+width: 600px;
+height: 500px;
+/* overflow content scroll, hidden, auto */
+overflow: scroll;  
+}
