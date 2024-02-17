@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/extr_css_files/form_styling.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form id="form" action="" method="get">
+        <div>
+            <input id="input_form" 
+            type="text" name="fullname" 
+            placeholder="Full Name" required />
+        </div>
+        <div>
+            <input id="input_form" 
+            type="email" name="email" 
+            placeholder="Email" disabled />
+        </div>
+        <div>
+            <input id="input_form" 
+            type="number" name="age" 
+            placeholder="Age" min="18" max="50" />
+        </div>
+        <div>
+            <input id="input_form" 
+            type="password" name="password" 
+            placeholder="Password" minlength="8" 
+            required
+                maxlength="11" />
+        </div>
+        <div>
+            <input id="input_form" type="password" 
+            name="confirm password" 
+            placeholder="Confirm Password" 
+            minlength="8" required
+                maxlength="11" />
+        </div>
+        <div>
+            <input id="terms_check" type="checkbox" 
+            value="terms" required> 
+            I accept the terms and conditions </input>
+        </div>
+
+        <div>
+            <input id="submit" type="submit" 
+            name="submit">
+        </div>
+    </form>
+</body>
+
+</html>

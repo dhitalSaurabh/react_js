@@ -1,39 +1,67 @@
-.para {
+/* .para {
     background-color: aqua;
     text-align: justify;
     font-weight: bold;
     line-height: 1.5;
     text-decoration: none;
-    /* undee-line, overline, line- through */
+    undee-line, overline, line- through
     text-transform: capitalize;
     letter-spacing: 0px;
     word-spacing: 0px;
     font-family: sans-serif;
-    /* border: 5px dotted red; */
-/* border-top-style: dotted;
+    border: 5px dotted red;
+border-top-style: dotted;
 border-right-style: dashed;
 border-left-style: solid;
 border-bottom-style: none;
 border-width: 5px;
 border-color: red;
-border-radius: 20px; */
+border-radius: 20px;
 border-left: 4px dotted red;
 border-right: 4px dashed blue;
 border-top: 4px dotted greenyellow;
 border-bottom: 4px solid darkred;
 border-radius: 20px;
-/* padding: 20px;
+padding: 20px;
 padding-left: 20px;
 padding-top: 0px;
 padding-bottom: 5px;
-padding-right: 20px; */
+padding-right: 20px;
 padding:  25px 20px 25px 20px;
 margin: 20px 20px;
-}
+} */
 
 #head {
     color: rebeccapurple;
     font-size: 18px;
     font-style: oblique;
     background-color: greenyellow;
+}
+/* selectors */
+/* article p{
+    font-size: 18px;
+    background-color: green;
+} */
+
+/* child Selector */
+
+/* article > p{
+    font-size: 20px;
+    background-color: aquamarine;
+} */
+
+/* Adjacent sibling selector */
+/* div + p{
+    background-color: blueviolet;
+    font-size: 24px;
+} */
+
+/* h3 + p {
+    background-color: red;
+} */
+
+/* Generel sibling selector */
+
+div ~ p{
+    background-color: aqua;
 }
