@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 720px;
+    padding-left: 5%;
+    padding-right: 2%;
+    /* background-color: aquamarine; */
+    background-image: url(
+        "/Html/assets/mountain-8310076.jpg");
+         background-repeat: no-repeat;
+          background-size: cover;
+          /* 500px 400px; */
+          /* background-position: bottom right; */
+}
+nav{
+    text-align: center;
+
+}
+nav > span {
+    font-family:sans-serif;
+}

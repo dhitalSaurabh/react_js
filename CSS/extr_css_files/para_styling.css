@@ -62,6 +62,37 @@ margin: 20px 20px;
 
 /* Generel sibling selector */
 
-div ~ p{
+/* div ~ p{
     background-color: aqua;
-}
+} */
+/* pseudo elements */
+ /* article > p::first-line{
+   letter-spacing: 3px;
+   color: lightblue;
+ }
+
+ article > p::first-letter{
+   font-size: 30;
+
+    color: lightblue;
+  }
+
+  article > p::selection{
+    background-color: green;
+    color: red;
+  } */
+
+  article > p{
+    background-color: lightcoral;
+  } 
+
+  article > p::before{
+    /* fixed height and width for image */
+    content: url(
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtVC2UKBgwhNPtxUuWueGjV7raim15cu65iw&usqp=CAU");
+
+  }
+
+  article >p::after{
+    content: url( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtVC2UKBgwhNPtxUuWueGjV7raim15cu65iw&usqp=CAU");
+  }

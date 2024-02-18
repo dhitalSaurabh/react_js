@@ -1,0 +1,32 @@
+/* #div1{
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to right, 
+    #f869f8, #5650de);
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(45deg, 
+    #f869f8, #5650de);
+    margin-top: 48px;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(180deg, 
+    #f869f8, #5650de);
+    margin-top: 48px;
+} */
+#div1 {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient( circle 
+    at bottom left,
+    /* closest-corner, */
+    /* farthest-corner, */
+    #f869f8, #5650de);
+    margin-top: 48px;
+}
