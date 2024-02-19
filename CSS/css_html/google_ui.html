@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/CSS/extr_css_files/google_ui.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icons?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <a class="menu_items" href="/">Gmail</a>
             <a class="menu_items" href="/">Images</a>
+            <div id="dropdown-wrapper">
+                <i id="dropdown-menu" class="material-icons">apps</i>
+                <div id="app-dropdown">
+                    <div class="app_icon">
+                        <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google search" />
+                        <p>Search</p>
+                    </div>
+                    <div class="app_icon">
+                        <img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png"
+                            alt="google maps" />
+                        <p>Maps</p>
+                    </div>
+                    <div class="app_icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png"
+                            alt="google drive" />
+                        <p>Drive</p>
+                    </div>
+                    <div class="app_icon">
+                        <img src="data:image/png;base64,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"
+                            alt="google calender" />
+                        <p>Calender</p>
+                    </div>
+                    <div class="app_icon">
+                        <img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png"
+                            alt="google photos" />
+                        <p>Photos</p>
+                    </div>
+                    <div class="app_icon">
+                        <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png"
+                            alt="google keep" />
+                        <p>Keep</p>
+                    </div>
+                </div>
+            </div>
+            <img class="image_id" src="/Html/assets/mZ4jhf.png" alt="profile pic">
         </nav>
     </header>
+
+    <main>
+        <section>
+
+            <img id="google_logo" src="/Html/assets/google_logo.png" alt="Google">
+
+            <br>
+            <div id="input-wrapper">
+                <input id="search-box">
+                <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+                    alt="Voice icon">
+            </div>
+            <div>
+                <button class="custom-button">Google Search</button>
+                <button class="custom-button">I'm Feeling Lucky</button>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>

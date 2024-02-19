@@ -1,15 +1,169 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-
+    padding: 0 16px;
 }
 
-.menu_items{
+.menu_items {
     font: 13px;
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
-    
-}
-.menu_items:hover{
-    text-decoration: underline;
+    position: relative;
+    top: -16px;
+    margin-right: 16px;
+
 }
 
+.menu_items:hover {
+    text-decoration: underline;
+    border-radius: 18px;
+    background-color: #5F6368;
+    box-shadow: 0 1px 6px rgba(22, 70, 214, 0.782);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#dropdown-menu {
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    margin-right: 16px;
+    
+}
+
+#dropdown-menu:hover {
+    border-radius: 18px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.image_id {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+.image_id:hover{
+    height: 35px;
+    width: 35px;
+    border-radius: 18px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#google_logo {
+    height: 140px;
+    width: 250px;
+}
+
+section {
+    text-align: center;
+    padding-top: 11%;
+}
+
+nav {
+    text-align: right;
+}
+
+#input-wrapper {
+    position: relative;
+    width: 582px;
+    display: inline-block;
+}
+
+#search-box {
+    width: 100%;
+    color: #222;
+    border: 2px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#search-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#search-box:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+
+}
+
+#input-wrapper>img {
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    width: 28px;
+}
+
+.custom-button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+}
+
+.custom-button:hover {
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222
+}
+
+.custom-button:first-of-type {
+    margin-right: 16px;
+}
+
+#app-dropdown {
+    
+    background-color: rgba(185, 198, 223, 0.962);
+    width: 280px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+position: absolute;
+right: 75px;
+display: none;
+}
+
+
+
+#dropdown-wrapper {
+    display: inline-block;
+}
+#dropdown-wrapper:hover #app-dropdown {
+    display: block;
+    
+}
+
+.app_icon {
+    cursor: pointer;
+ display: inline-block;
+ width: 84px;  
+ margin-bottom: 18px; 
+ padding: 8px 2px; 
+ text-align: center;
+}
+
+.app_icon:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+   }
+
+.app_icon > img {
+    width: 50px;
+    height: 50px;
+}
+.app_icon > p {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding-top: 8px;
+}
